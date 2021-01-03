@@ -3,7 +3,7 @@
     <property name="jacocoReportFile" location="${workspace}/it-jacoco.exec"/>
 
     <taskdef uri="antlib:org.jacoco.ant" resource="org/jacoco/ant/antlib.xml">
-        <classpath path="${workspace}/org.jacoco.ant-0.8.6.jar"/>
+        <classpath path="${workspace}/org.jacoco.ant-0.8.5.jar"/>
     </taskdef>
 
     <target name="jacocoReport">
